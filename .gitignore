@@ -3,3 +3,11 @@
 /.settings
 /.buildpath
 /configuration.php
+
+#Areas que tipicamente geram arquivos que não deve ser trackeados
+/administrator/cache/*
+/cache/*
+/logs/*
+
+#IDE Netbeans
+/nbproject/
